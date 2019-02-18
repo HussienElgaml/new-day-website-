@@ -1,0 +1,244 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="hovers.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<style>
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  .sticky + .content {
+  padding-top: 60px;
+}
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark" >
+      <div class="container">
+ <a class="navbar-brand" href="#" style>New Day</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bar-menu">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div id="bar_menu" class="collapse navbar-collapse" id="navbar-example">
+  <ul class="navbar-nav ">
+   <li class="nav-item dropdown" style="margin-left:30px;">
+      <a class="nav-link dropdown-toggle" href="#" id="course-menu" data-toggle="dropdown"> Categries</a>
+
+    <div class="dropdown-menu">
+     <a class="dropdown-item" href="#">Icdl</a>
+     <a class="dropdown-item" href="#">Accounting</a>
+     <a class="dropdown-item" href="#">Markting</a>
+     <a class="dropdown-item" href="#">Design</a>
+
+     </div>
+     </li>
+  <!-- <form class="form-inline" style="margin-left:30px;">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search Course">
+    <button class="btn btn-success"  type="submit">Search</button>
+  </form>-->
+
+    <li class="nav-item" style="margin-left:500px;">
+      <a class="nav-link" href="#1">home</a>
+    </li>
+    <li class="nav-item" style="margin-left:50px;">
+      <a class="nav-link" href="#2">About</a>
+    </li>
+    <li class="nav-item" style="margin-left:50px;">
+      <a class="nav-link" href="#3">memvers</a>
+    </li>
+    <li class="nav-item" style="margin-left:30px;">
+      <a class="nav-link " href="#4">Contact</a>
+    </li>
+  </ul>
+  </div>
+  </div>
+  </nav>
+
+<div  style="background-image: url('https://www.publicdomainpictures.net/pictures/10000/velka/1275-1245716394KlVp.jpg');
+background-repeat: no-repeat; background-size: cover; background-position: center center; height:500px" id="1">
+
+<div class="container">
+ <div class="row">
+   <div class="text-center col-md-12 white-text mb-4">
+    <h1 style="margin-top:175px; color:white;" >New Day Company</h1>
+    <h3 style="margin-top:20px; color:white;"> Try to change to the better</h3>
+   </div>
+  </div>
+</div>
+</div>
+
+<div class="container" style="background-size:cover;" id="2">
+
+
+      <div class="row" style="margin-top:30px;">
+        <div class="col-lg-4 text-center">
+          <img class="rounded-circle" src="https://image.ibb.co/cXQk77/Screenshot_at_2018_04_02_09_11_51.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Team Leader</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+
+        <div class="col-lg-4 text-center">
+          <img class="rounded-circle"  src="https://preview.ibb.co/eS1BEn/29683491_367235410443799_9006656259713433092_n.jpg"alt="Generic placeholder image" width="140" height="140">
+          <h2>Department Head</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+
+         <div class="col-lg-4 text-center">
+          <img class="rounded-circle"  src="https://image.ibb.co/bAkDun/ge.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Department Head</h2>
+
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+       </div>
+      </div>
+      <section class="jumbotron text-center" id="3">
+             <div class="container">
+               <h1 class="jumbotron-heading"></h1>
+               <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+               <p>
+                 <a href="sign-form.html" class="btn btn-primary my-2">sign in </a>
+                 <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+               </p>
+             </div>
+           </section>
+
+
+             <div class="container" id="4">
+                  <div class="row">
+                  <div class="col-md-4">
+           <div class="card mb-4 box-shadow">
+            <div class="hovereffect">
+             <img class="img-responsive" src="download.jpeg" alt="" width="100%" height="290px">
+             <div class="overlay">
+                <h2>Hover effect 1v2</h2>
+                <a class="info" href="#">link here</a>
+                  </div>
+                </div>
+               </div>
+             </div>
+
+                     <div class="col-md-4">
+           <div class="card mb-4 box-shadow">
+            <div class="hovereffect">
+             <img class="img-responsive" src="download.png" alt="" width="100%" height="290px">
+             <div class="overlay">
+                <h2>Hover effect 1v2</h2>
+                <a class="info" href="#">link here</a>
+                  </div>
+                </div>
+               </div>
+             </div>
+              <div class="col-md-4">
+           <div class="card mb-4 box-shadow">
+            <div class="hovereffect">
+             <img class="img-responsive" src="IELTS.jpg" alt="" width="100%" height="290px">
+             <div class="overlay">
+                <h2>Hover effect 1v2</h2>
+                <a class="info" href="#">link here</a>
+                  </div>
+                </div>
+               </div>
+             </div>
+            </div>
+
+                      <div class="row">
+               <div class="col-md-4">
+           <div class="card mb-4 box-shadow">
+            <div class="hovereffect">
+             <img class="img-responsive" src="images.jpeg" alt="" width="100%"height="290px">
+             <div class="overlay">
+                <h2>Hover effect 1v2</h2>
+                <a class="info" href="#">link here</a>
+                  </div>
+                </div>
+               </div>
+             </div>
+
+                <div class="col-md-4">
+           <div class="card mb-4 box-shadow">
+            <div class="hovereffect">
+             <img class="img-responsive" src="tot.jpg" alt="" width="100%" height="290px">
+             <div class="overlay">
+                <h2>Hover effect 1v2</h2>
+                <a class="info" href="#">link here</a>
+                  </div>
+                </div>
+               </div>
+             </div>
+
+          <div class="col-md-4">
+           <div class="card mb-4 box-shadow">
+            <div class="hovereffect">
+             <img class="img-responsive" src="Who-can-attend.png" alt="" width="100%">
+             <div class="overlay">
+                <h2>Hover effect 1v2</h2>
+                <a class="info" href="#">link here</a>
+                  </div>
+                </div>
+               </div>
+             </div>
+            </div>
+            </div>
+
+
+
+
+
+     <footer class="page-footer font-small blue pt-4 mt-4" style="background-color:pink;">
+
+
+         <div class="container-fluid">
+             <div class="row text center">
+
+
+
+                     <ul class="list-inline" style="margin-left:550px;">
+         <li class="list-inline-item"><a href="#">Home</a></li>
+         <li class="list-inline-item"><a href="#">Menu 1</a></li>
+         <li class="list-inline-item"><a href="#">Menu 2</a></li>
+         <li class="list-inline-item"><a href="#">Menu 3</a></li>
+       </ul>
+                 </div>
+
+             </div>
+         </div>
+
+<script>
+
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+     </body>
+     </html>
